@@ -313,7 +313,49 @@
                 </div>
 
                 <!-- Main Reading Area (Latest Entry Rendered) -->
-                <article class="journal-article">
+               <article class="journal-article">
+    <div class="journal-header">
+        <div class="journal-meta">Reading Note • TRULY ADVENTUROUS</div>
+        <h1 class="journal-title">Double Crossed: Festus</h1>
+        <p class="journal-subtitle">By Ryan Krull — Analyzed by Ilia Shariat</p>
+        
+        <!-- Sub-navigation Tabs -->
+        <div style="display: flex; gap: 15px; margin-top: 25px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px;">
+            <button onclick="switchJournalTab('story')" id="tab-story-btn" style="background: none; border: none; color: var(--accent-color); font-weight: 600; font-size: 1rem; cursor: pointer; padding-bottom: 5px; border-bottom: 2px solid var(--accent-color);">
+                📖 Part 1: The Story
+            </button>
+            <button onclick="switchJournalTab('notes')" id="tab-notes-btn" style="background: none; border: none; color: var(--text-secondary); font-weight: 600; font-size: 1rem; cursor: pointer; padding-bottom: 5px;">
+                💡 Part 2: My Personal Journal & Reflections
+            </button>
+        </div>
+    </div>
+
+    <!-- PART 1: THE STORY -->
+    <div id="journal-part-story" class="journal-body">
+        <p>TIM TODD spent a quiet and, by all appearances, happy weekend with his wife, Patti. First thing Monday he went to meet his boss, private security kingpin Bill Pagano, to solidify his plans to have her killed. They sat across from each other in Bill’s office.</p>
+        
+        <p>“Did you go up to St. Louis last night?” Tim asked Bill expectantly.</p>
+        
+        <p>Bill nodded. “It put me right in the middle of where I didn’t want to be,” he said.</p>
+        
+        <p>Bill, the former police chief of the small town of Festus, Missouri, said he had gone to St. Louis to rendezvous with a pair of hitmen who Tim was convinced would solve all his problems.</p>
+        
+        <p><em>(متن کامل داستان این‌جا قرار می‌گیرد...)</em></p>
+    </div>
+
+    <!-- PART 2: PERSONAL THOUGHTS -->
+    <div id="journal-part-notes" class="journal-body" style="display: none;">
+        <h2 style="font-family: 'Plus Jakarta Sans', sans-serif; font-size: 1.4rem; color: var(--text-primary); margin-bottom: 15px;">My Take on Festus & The Psychology of Betrayal</h2>
+        
+        <p>اینجا می‌توانی تمام تحلیلا، نظرات شخصی، برداشت‌ها و یادداشت‌هایت درباره این داستان، شخصیت‌های Tim و Bill Pagano، و اتفاقاتی که افتاده را بنویسی.</p>
+        
+        <blockquote style="border-left: 3px solid var(--accent-color); padding-left: 15px; margin: 20px 0; color: var(--text-secondary); font-style: italic;">
+            "Power corrupts, but absolute power in a small town corrupts absolutely."
+        </blockquote>
+        
+        <p>برای مثال: چه کلماتی یاد گرفتی، تحلیل رفتار شخصیت‌ها، یا ارتباطش با درس‌ها و تجربیات زیسته خودت!</p>
+    </div>
+</article>
                     <div class="journal-header">
                         <div class="journal-meta">Reading Note • TRULY ADVENTUROUS</div>
                         <h1 class="journal-title">Double Crossed: Festus</h1>
@@ -406,6 +448,27 @@
             // Scroll to top
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
-    </script>
+    function switchJournalTab(part) {
+    const storyDiv = document.getElementById('journal-part-story');
+    const notesDiv = document.getElementById('journal-part-notes');
+    const storyBtn = document.getElementById('tab-story-btn');
+    const notesBtn = document.getElementById('tab-notes-btn');
+
+    if (part === 'story') {
+        storyDiv.style.display = 'block';
+        notesDiv.style.display = 'none';
+        storyBtn.style.color = 'var(--accent-color)';
+        storyBtn.style.borderBottom = '2px solid var(--accent-color)';
+        notesBtn.style.color = 'var(--text-secondary)';
+        notesBtn.style.borderBottom = 'none';
+    } else {
+        storyDiv.style.display = 'none';
+        notesDiv.style.display = 'block';
+        notesBtn.style.color = 'var(--accent-color)';
+        notesBtn.style.borderBottom = '2px solid var(--accent-color)';
+        storyBtn.style.color = 'var(--text-secondary)';
+        storyBtn.style.borderBottom = 'none';
+    }
+}
 </body>
 </html>
