@@ -1,301 +1,410 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ilia Shariat | Portfolio & Daily Journal</title>
-    <!-- Inter Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Ilia Shariat | Personal Site & Journal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Newsreader:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-color: #0f172a;
-            --card-bg: #1e293b;
-            --text-main: #f8fafc;
-            --text-muted: #94a3b8;
-            --accent: #38bdf8;
-            --accent-hover: #0284c7;
-            --border: #334155;
+            --bg-body: #0d0f12;
+            --bg-card: #16191e;
+            --border-color: #262a33;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --accent-color: #38bdf8;
+            --accent-glow: rgba(56, 189, 248, 0.15);
         }
 
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-            font-family: 'Inter', sans-serif;
         }
 
         body {
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            line-height: 1.6;
-            padding-bottom: 50px;
+            background-color: var(--bg-body);
+            color: var(--text-primary);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            line-height: 1.7;
+            min-height: 100vh;
         }
 
-        header {
-            text-align: center;
-            padding: 40px 20px 20px;
-            background: rgba(30, 41, 59, 0.5);
-            border-bottom: 1px solid var(--border);
-        }
-
-        header h1 {
-            font-size: 2rem;
-            color: var(--accent);
-            margin-bottom: 8px;
-        }
-
-        header p {
-            color: var(--text-muted);
-            font-size: 1rem;
-        }
-
-        /* Navigation Tabs Switcher */
-        .tab-navigation {
+        /* Top Bar Navigation */
+        nav {
             display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin: 30px auto;
-            max-width: 500px;
-            padding: 5px;
-            background: var(--card-bg);
-            border-radius: 12px;
-            border: 1px solid var(--border);
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            border-bottom: 1px solid var(--border-color);
+            background: rgba(13, 15, 18, 0.8);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
         }
 
-        .tab-btn {
-            flex: 1;
-            padding: 12px 20px;
-            border: none;
-            background: transparent;
-            color: var(--text-muted);
-            font-size: 1rem;
-            font-weight: 600;
+        .brand {
+            font-size: 1.2rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: var(--text-primary);
             cursor: pointer;
-            border-radius: 8px;
-            transition: all 0.3s ease;
         }
 
-        .tab-btn.active {
-            background: var(--accent);
-            color: #0f172a;
+        .nav-links button {
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            font-weight: 500;
+            margin-left: 20px;
+            cursor: pointer;
+            transition: color 0.2s ease;
+        }
+
+        .nav-links button:hover, .nav-links button.active {
+            color: var(--accent-color);
         }
 
         .container {
             max-width: 1000px;
-            margin: 0 auto;
+            margin: 40px auto;
             padding: 0 20px;
         }
 
-        .tab-content {
+        /* Views Switching */
+        .view {
             display: none;
         }
 
-        .tab-content.active {
+        .view.active {
             display: block;
-            animation: fadeIn 0.4s ease;
+            animation: fadeIn 0.4s ease-in-out;
         }
 
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
+            from { opacity: 0; transform: translateY(8px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
-        /* Card Styles */
-        .grid {
+        /* Landing / Gateway Style */
+        .gateway-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+            margin-top: 60px;
         }
 
-        .card {
-            background: var(--card-bg);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 20px;
-            transition: transform 0.2s ease, border-color 0.2s ease;
+        .gateway-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 40px 30px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
         }
 
-        .card:hover {
-            transform: translateY(-4px);
-            border-color: var(--accent);
+        .gateway-card:hover {
+            border-color: var(--accent-color);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px var(--accent-glow);
         }
 
-        .card h3 {
-            margin-bottom: 10px;
-            color: var(--accent);
+        .gateway-card h2 {
+            font-size: 1.6rem;
+            margin-bottom: 12px;
+            color: var(--text-primary);
         }
 
-        .card p {
-            color: var(--text-muted);
+        .gateway-card p {
+            color: var(--text-secondary);
             font-size: 0.95rem;
+        }
+
+        .card-tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent-color);
+            font-weight: 600;
             margin-bottom: 15px;
         }
 
-        .placeholder-text {
-            color: #64748b;
+        /* Journal Layout */
+        .journal-layout {
+            display: grid;
+            grid-template-columns: 260px 1fr;
+            gap: 40px;
+            align-items: start;
+        }
+
+        .journal-sidebar {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+            position: sticky;
+            top: 100px;
+        }
+
+        .journal-sidebar h3 {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-secondary);
+            margin-bottom: 15px;
+        }
+
+        .archive-list {
+            list-style: none;
+        }
+
+        .archive-item {
+            padding: 10px 12px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            cursor: pointer;
+            margin-bottom: 5px;
+            transition: all 0.2s ease;
+        }
+
+        .archive-item.active, .archive-item:hover {
+            background: rgba(56, 189, 248, 0.1);
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        .journal-article {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 50px 40px;
+        }
+
+        .journal-header {
+            margin-bottom: 30px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 25px;
+        }
+
+        .journal-meta {
+            color: var(--accent-color);
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .journal-title {
+            font-family: 'Newsreader', serif;
+            font-size: 2.5rem;
+            line-height: 1.2;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+        }
+
+        .journal-subtitle {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
             font-style: italic;
         }
 
-        /* Article Specific Tag */
-        .tag {
-            display: inline-block;
-            background: rgba(56, 189, 248, 0.1);
-            color: var(--accent);
-            padding: 4px 10px;
-            border-radius: 6px;
-            font-size: 0.8rem;
-            margin-bottom: 10px;
+        .journal-body {
+            font-family: 'Newsreader', serif;
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: #cbd5e1;
         }
 
-        .article-card {
-            border-left: 4px solid var(--accent);
+        .journal-body p {
+            margin-bottom: 20px;
         }
 
-        /* Contact Form */
-        .form-group {
+        /* Work / Projects Section Placeholder */
+        .work-placeholder {
+            text-align: center;
+            padding: 80px 20px;
+            background: var(--bg-card);
+            border: 1px dashed var(--border-color);
+            border-radius: 16px;
+        }
+
+        .work-placeholder h2 {
+            font-size: 1.8rem;
             margin-bottom: 15px;
         }
 
-        .form-group label {
-            display: block;
-            margin-bottom: 5px;
-            color: var(--text-main);
+        .work-placeholder p {
+            color: var(--text-secondary);
+            max-width: 500px;
+            margin: 0 auto;
         }
 
-        .form-group input, .form-group textarea {
-            width: 100%;
-            padding: 10px;
-            background: #0f172a;
-            border: 1px solid var(--border);
-            border-radius: 6px;
-            color: #fff;
-        }
-
-        .btn-submit {
-            background: var(--accent);
-            color: #0f172a;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 6px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-
-        .btn-submit:hover {
-            background: var(--accent-hover);
-        }
-
-        .section-title {
-            margin: 30px 0 15px;
-            border-bottom: 2px solid var(--border);
-            padding-bottom: 8px;
-            color: #fff;
+        @media (max-width: 768px) {
+            .journal-layout {
+                grid-template-columns: 1fr;
+            }
+            .journal-article {
+                padding: 30px 20px;
+            }
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Ilia Shariat</h1>
-        <p>Data Analytics & Tech Portfolio</p>
-    </header>
-
-    <!-- Switcher Bar -->
-    <div class="tab-navigation">
-        <button class="tab-btn active" onclick="openTab('work')">Professional Hub</button>
-        <button class="tab-btn" onclick="openTab('journal')">Daily Journal</button>
-    </div>
+    <nav>
+        <div class="brand" onclick="showView('home')">Ilia Shariat</div>
+        <div class="nav-links">
+            <button onclick="showView('home')">Home</button>
+            <button onclick="showView('work')">Work & Services</button>
+            <button onclick="showView('journal')">Daily Journal</button>
+        </div>
+    </nav>
 
     <div class="container">
 
-        <!-- ================= SECTION 1: PROFESSIONAL HUB ================= -->
-        <div id="work" class="tab-content active">
-            
-            <h2 class="section-title">Projects</h2>
-            <div class="grid">
-                <!-- Empty Project Card 1 -->
-                <div class="card">
-                    <h3>Project Title 1</h3>
-                    <p class="placeholder-text">[ Add your project description, dataset details, and GitHub repository link here later. ]</p>
-                </div>
-                <!-- Empty Project Card 2 -->
-                <div class="card">
-                    <h3>Project Title 2</h3>
-                    <p class="placeholder-text">[ Add your project description, tech stack, and key findings here later. ]</p>
-                </div>
+        <!-- ================= VIEW 1: HOME / GATEWAY ================= -->
+        <div id="view-home" class="view active">
+            <div style="text-align: center; margin-top: 40px;">
+                <h1 style="font-size: 2.5rem; margin-bottom: 10px;">Welcome to My Space</h1>
+                <p style="color: var(--text-secondary);">Select a portal below to explore my work or read my daily entries.</p>
             </div>
 
-            <h2 class="section-title">Get in Touch / Request a Project</h2>
-            <div class="card">
-                <p>Feel free to reach out for data analytics inquiries, collaborations, or professional services.</p>
-                <form onsubmit="event.preventDefault(); alert('Your message has been sent successfully.');">
-                    <div class="form-group">
-                        <label>Your Name / Company:</label>
-                        <input type="text" required placeholder="Enter your name">
-                    </div>
-                    <div class="form-group">
-                        <label>Email Address:</label>
-                        <input type="email" required placeholder="example@gmail.com">
-                    </div>
-                    <div class="form-group">
-                        <label>Project Details:</label>
-                        <textarea rows="4" placeholder="Describe your project or inquiry..."></textarea>
-                    </div>
-                    <button type="submit" class="btn-submit">Send Request</button>
-                </form>
-            </div>
+            <div class="gateway-grid">
+                <div class="gateway-card" onclick="showView('work')">
+                    <span class="card-tag">Portal 01</span>
+                    <h2>Work & Projects</h2>
+                    <p>Services, data analytics inquiries, and professional portfolio projects.</p>
+                </div>
 
+                <div class="gateway-card" onclick="showView('journal')">
+                    <span class="card-tag">Portal 02</span>
+                    <h2>Daily Journal</h2>
+                    <p>Read my latest article entries, reading notes, and personal thoughts.</p>
+                </div>
+            </div>
         </div>
 
-        <!-- ================= SECTION 2: DAILY JOURNAL ================= -->
-        <div id="journal" class="tab-content">
-            
-            <h2 class="section-title">Daily Updates & Fun</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>Learning Milestones & Competitions</h3>
-                    <p class="placeholder-text">[ Share your daily coding streaks, Kaggle milestones, or casual updates here. ]</p>
-                </div>
+        <!-- ================= VIEW 2: WORK & SERVICES ================= -->
+        <div id="view-work" class="view">
+            <div class="work-placeholder">
+                <h2>Projects & Services Hub</h2>
+                <p>[ This space is reserved for upcoming analytics projects, consulting requests, and technical portfolios. ]</p>
             </div>
+        </div>
 
-           <h2 class="section-title">English Articles & Reading Notes</h2>
-            <div class="grid">
+        <!-- ================= VIEW 3: JOURNAL (WITH LATEST ARTICLE DISPLAY) ================= -->
+        <div id="view-journal" class="view">
+            <div class="journal-layout">
                 
-                <!-- Article Card -->
-                <div class="card article-card">
-                    <span class="tag">Reading Notes</span>
-                    <h3>ENGLIS 1</h3>
-                    <p><strong>Summary:</strong> Key takeaways and notes from the ENGLIS 1 article.</p>
-                    <p><strong>Personal Notes:</strong> Personal insights and review of the document.</p>
-                    
-                    <!-- Link to uploaded docx file -->
-                    <p style="margin-top: 15px;">
-                        <a href="ENGLIS 1.docx" target="_blank" style="color: var(--accent); text-decoration: none; font-weight: 600;">
-                            📥 View / Download Article (DOCX)
-                        </a>
-                    </p>
+                <!-- Sidebar Archive -->
+                <div class="journal-sidebar">
+                    <h3>Journal Archive</h3>
+                    <ul class="archive-list">
+                        <li class="archive-item active">Double Crossed: Festus</li>
+                        <li class="archive-item" style="opacity: 0.5;">[ Upcoming Entry ]</li>
+                    </ul>
                 </div>
 
-            </div>
+                <!-- Main Reading Area (Latest Entry Rendered) -->
+                <article class="journal-article">
+                    <div class="journal-header">
+                        <div class="journal-meta">Reading Note • TRULY ADVENTUROUS</div>
+                        <h1 class="journal-title">Double Crossed: Festus</h1>
+                        <p class="journal-subtitle">A hit job and a murder. In Festus, Missouri, no one knows who to believe. — By Ryan Krull</p>
+                    </div>
 
+                    <div class="journal-body">
+                        <p>TIM TODD spent a quiet and, by all appearances, happy weekend with his wife, Patti. First thing Monday he went to meet his boss, private security kingpin Bill Pagano, to solidify his plans to have her killed. They sat across from each other in Bill’s office.</p>
+                        
+                        <p>“Did you go up to St. Louis last night?” Tim asked Bill expectantly.</p>
+                        
+                        <p>Bill nodded. “It put me right in the middle of where I didn’t want to be,” he said.</p>
+                        
+                        <p>Bill, the former police chief of the small town of Festus, Missouri, said he had gone to St. Louis to rendezvous with a pair of hitmen who Tim was convinced would solve all his problems.</p>
+                        
+                        <p>“[The hitmen] are taking this on my love for you, okay?” Bill said. “And you know, conversely, they’re believing everything I say about your love for me.”</p>
+                        
+                        <p>Bill was in all likelihood thinking about the years he’d covered for Tim. Bill was Tim’s mentor. And Tim was Bill’s right-hand man. Over the past decade their fortunes had risen together. They could fall together just as easily. When Bill got wind that Tim had been running around Festus trying to find a hitman to kill his wife, he chastised his young protégé for the loose talk and for not coming to him first.</p>
+                        
+                        <p>“Which package do we have to deliver today?” Tim asked.</p>
+                        
+                        <p>“The picture.”</p>
+                        
+                        <p>“This is the best my mom’s got,” Tim said. He handed over the photo, a Sears-style portrait of Tim and Patti. She wore a red dress and a half-smile, her blonde hair falling at her shoulder. “Her and me together. And that’s about close to what she looks like now anyway.”</p>
+                        
+                        <p>Bill took the photo by its edges. “It don’t matter if your prints on there,” he said. “But if it’s got mine, that’ll raise questions.”</p>
+
+                        <p>“Do you want me to cut myself out of it?” Tim asked.</p>
+
+                        <p>“It looks more authentic if you’re in it,” Bill replied.</p>
+
+                        <p>Their voices were cautious, controlled. They knew each other even better than their own families did. But the chummy brotherhood was a veneer. Bill was recording the conversation with his protégé to bring to his friends in law enforcement. The events already in motion would soon draw the attention of the entire Midwest to this small town on the Mississippi River. With toppled allegiances, unforeseen betrayals, and a small-town multi-business empire that made a mockery of law enforcement and government, this murder-for-hire scheme would spur an unexpected turn for the would-be mastermind.</p>
+
+                        <p>Tim said he planned to be in Cape Girardeau, 80 miles south, the following weekend competing in the bodybuilding meet he’d been ferociously training for. He was bringing his two kids with him, but not Patti. It would be a convenient alibi and a way to make sure neither of his children were caught in the line of fire.</p>
+
+                        <p>“I’d be real surprised if they jump that fast,” Pagano said, referring to the hitmen in St. Louis. “But, maybe they will.”</p>
+
+                        <p>BILL PAGANO carried himself with the air of a nobleman. In Festus, population 7,000, that’s essentially what he was. He had been the youngest police chief in Missouri when elected at age 27. Legend has it that on his first day he issued an ultimatum to the motorcycle gangs that plagued the town at the time: leave Festus before sundown or else. The gangs responded by breaking Bill’s jaw outside a biker bar. That night he arrested every biker, whether they’d committed a crime or not.</p>
+
+                        <p>The story may be fiction, but either way it speaks to what Festus residents say were the defining traits of Bill’s tenure as police chief: his ability to rid the town of riffraff and then quickly spread word of his having done so. He was a gregarious raconteur whose stories tended to be about himself. Later, he convinced the city to give his officers substantial raises, which in turn made the force fiercely loyal to him.</p>
+
+                        <p>He also persuaded Festus’ mayor to let him start a private security company even as he was still police chief. He procured massive public contracts that grew his wealth. In 1984, he quit his job as chief, quipping: “Right now my police work consumes 90 percent of my time but is only 10 percent of my income.” Because his salary as police chief was public, the math was easy. Many interpreted the quip as the typical braggadocio they’d come to expect of Bill.</p>
+
+                        <p>He was a big shot in a small town, and there was no one in the county who wouldn’t answer his call. So when he rang Jefferson County Prosecuting Attorney William Johnson and asked him to lunch at the Raintree Country Club, the prosecutor quickly agreed.</p>
+
+                        <p>After lunch the pair went back to Johnson’s office, where Bill had a sensitive matter to discuss. About a month earlier, he informed Johnson, he had taken the unusual step of drilling a hole in his office desk to wire a microphone so he could secretly record ongoing conversations with his second-in-command, Tim.</p>
+
+                        <p>“I have a very serious problem,” Bill said.</p>
+
+                        <p>He told Johnson that his friend and right-hand man wanted to have his wife, Patti, murdered. He’d confided as much to Bill and talked about recruiting hitmen to do it. Bill had told Tim he could help in order to draw out a confession. Bill told Johnson that he loved Tim like a son and didn’t want to see anything bad come to him or to Patti. He also indicated he had Tim’s entire plan on tape.</p>
+
+                        <p>“He’s so loyal and valuable, just a friend. He got into trouble when he was with the police department and had to resign,” he said. “He had a psychiatric episode.” Bill told Johnson that Tim, a fitness freak, was using steroids. Bill believed the steroids were now causing another episode and were the reason Tim wanted his wife killed. He was a good kid who was making a mistake.</p>
+
+                        <p>“Would you consider deferring prosecution if I could get him into a hospital, a psychiatric unit?” Bill asked. “I would take him to Kansas City or Chicago.”</p>
+
+                        <p>Johnson thought about this. On the one hand, as prosecuting attorney he had wide discretion if and how the state brought charges. He felt that Bill was sincere in his desire to see no harm come to Patti, and Johnson said that was his top priority as well. But he worried Bill’s desire to keep Tim out of trouble could wind up getting Patti killed.</p>
+
+                        <p>Bill told Johnson about the bodybuilding meet in Cape Girardeau. That was when Tim wanted the hitmen to do it, providing him with an alibi.</p>
+
+                        <p>OK, Johnson thought. That gives us an eight-or-nine-day window. Bill asked, “What about if I just brought him in myself?” “That would be dangerous,” Johnson replied.</p>
+
+                        <p>“I could ask to see his gun.”</p>
+
+                        <p>Johnson later said he was skeptical of the idea but felt it was not without its merits. Crucially, Tim had at this point committed no crime by merely talking about killing his wife. Johnson saw, however, that Bill was in the unique position of being able both to confirm Tim was serious about killing his wife and to arrest him for it. More specifically, Bill could facilitate the transfer of a significant amount of money—say $5,000—from Tim to hire a hitman. In doing so, Tim would actually be committing a crime, and Bill, who was still an auxiliary deputy, could arrest him.</p>
+
+                        <p>Johnson didn’t sign off on the plan outright, but he didn’t forbid it either.</p>
+
+                        <p>Bill left the prosecutor’s office, evidently satisfied. But evidence would later suggest he had his own plan brewing...</p>
+                    </div>
+                </article>
+
+            </div>
         </div>
 
     </div>
 
     <script>
-        function openTab(tabName) {
-            // Hide all tab contents
-            const contents = document.querySelectorAll('.tab-content');
-            contents.forEach(content => content.classList.remove('active'));
+        function showView(viewName) {
+            // Hide all views
+            const views = document.querySelectorAll('.view');
+            views.forEach(v => v.classList.remove('active'));
 
-            // Remove active class from buttons
-            const buttons = document.querySelectorAll('.tab-btn');
+            // Deactivate nav links
+            const buttons = document.querySelectorAll('.nav-links button');
             buttons.forEach(btn => btn.classList.remove('active'));
 
-            // Show current tab & activate button
-            document.getElementById(tabName).classList.add('active');
-            event.currentTarget.classList.add('active');
+            // Show selected view
+            document.getElementById('view-' + viewName).classList.add('active');
+            
+            // Scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
     </script>
 </body>
