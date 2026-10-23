@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://iliashariat86-beep.github.io/ilia-shariat.github.io/sitemap.xml
