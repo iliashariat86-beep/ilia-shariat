@@ -3,29 +3,10 @@
     <title>ILIA blog</title>
     <link href="https://iliashariat86-beep.github.io/ilia-shariat.github.io/feed.xml" rel="self" />
     <link href="https://iliashariat86-beep.github.io/ilia-shariat.github.io" />
-    <updated>2026-10-23T12:22:55+03:30</updated>
+    <updated>1970-01-01T03:30:00+03:30</updated>
     <author>
         <name>ilia</name>
     </author>
     <id>https://iliashariat86-beep.github.io/ilia-shariat.github.io</id>
 
-    <entry>
-        <title>this is just a test </title>
-        <author>
-            <name>ilia</name>
-        </author>
-        <link href="https://iliashariat86-beep.github.io/ilia-shariat.github.io/this-is-just-a-test/"/>
-        <id>https://iliashariat86-beep.github.io/ilia-shariat.github.io/this-is-just-a-test/</id>
-
-        <updated>2026-10-23T12:22:55+03:30</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                
-  <p>
-    
-  </p>
-            ]]>
-        </content>
-    </entry>
 </feed>
