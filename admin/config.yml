@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "articles"
+    label: "مقالات"
+    folder: "content/articles"
+    create: true
+    fields:
+      - {label: "عنوان مقاله", name: "title", widget: "string"}
+      - {label: "تاریخ انتشار", name: "date", widget: "datetime"}
+      - {label: "تصویر شاخص", name: "image", widget: "image", required: false}
+      - {label: "متن مقاله", name: "body", widget: "markdown"}
+
+  - name: "podcasts"
+    label: "پادکست‌ها"
+    folder: "content/podcasts"
+    create: true
+    fields:
+      - {label: "عنوان پادکست", name: "title", widget: "string"}
+      - {label: "تاریخ انتشار", name: "date", widget: "datetime"}
+      - {label: "لینک فایل صوتی", name: "audio_url", widget: "string", hint: "لینک مستقیم فایل صوتی یا تلگرام"}
+      - {label: "توضیحات پادکست", name: "body", widget: "markdown"}
