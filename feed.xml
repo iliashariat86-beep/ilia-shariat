@@ -3,196 +3,82 @@
     <title>ILIA blog</title>
     <link href="https://iliashariat86-beep.github.io/ilia-shariat.github.io/feed.xml" rel="self" />
     <link href="https://iliashariat86-beep.github.io/ilia-shariat.github.io" />
-    <updated>2026-10-23T14:43:57+03:30</updated>
+    <updated>2026-10-24T10:12:56+03:30</updated>
     <author>
         <name>ilia</name>
     </author>
     <id>https://iliashariat86-beep.github.io/ilia-shariat.github.io</id>
 
     <entry>
-        <title>برای ساخت یک خانه در دل جنگل به چه چیزهایی نیاز داریم؟</title>
+        <title>Building a House from Start to Finish: A Civil Engineer’s Perspective</title>
         <author>
             <name>ilia</name>
         </author>
-        <link href="https://iliashariat86-beep.github.io/ilia-shariat.github.io/bry-skht-ykh-khnh-dr-dl-jngl-bh-chh-chyzhyy-nyz-drym/"/>
-        <id>https://iliashariat86-beep.github.io/ilia-shariat.github.io/bry-skht-ykh-khnh-dr-dl-jngl-bh-chh-chyzhyy-nyz-drym/</id>
+        <link href="https://iliashariat86-beep.github.io/ilia-shariat.github.io/building-a-house-from-start-to-finish-a-civil-engineers-perspective/"/>
+        <id>https://iliashariat86-beep.github.io/ilia-shariat.github.io/building-a-house-from-start-to-finish-a-civil-engineers-perspective/</id>
+        <media:content url="https://iliashariat86-beep.github.io/ilia-shariat.github.io/media/posts/4/kKKjvnWEZ6xTtLKT8AyskfUdMntAPXPMDFE-c4cVIJZtPs5JrZNXTHDIc0e5Vc9TMwAddPQNEI-5CKpFC7PeblguMWmSoEsKTcID1LPel-aEPENnxMjbGGfGn6abwfWBYulUvoAhJyTaVraG2mGRdPo84Rrk6kE9DdJl5enS97HIQQ968T4YTEsI8knzE2gH.jpg" medium="image" />
 
-        <updated>2026-10-23T14:43:57+03:30</updated>
+        <updated>2026-10-24T10:05:23+03:30</updated>
             <summary type="html">
                 <![CDATA[
-                    فکر کن یک روز زامبی‌ها حمله کردن یا یک بمب هسته‌ای منفجر شده و تو به شکلی زنده موندی! حالا باید چی کار کنی؟ چطور زنده بمونی و چطور برای خودت یک سرپناه بسازی؟ خب، خداروشکر تا الان نه زامبی‌ها اومدن و نه بمب هسته‌ای&hellip;
+                        <img src="https://iliashariat86-beep.github.io/ilia-shariat.github.io/media/posts/4/kKKjvnWEZ6xTtLKT8AyskfUdMntAPXPMDFE-c4cVIJZtPs5JrZNXTHDIc0e5Vc9TMwAddPQNEI-5CKpFC7PeblguMWmSoEsKTcID1LPel-aEPENnxMjbGGfGn6abwfWBYulUvoAhJyTaVraG2mGRdPo84Rrk6kE9DdJl5enS97HIQQ968T4YTEsI8knzE2gH.jpg" alt="" />
+                    Hi, I’m Ilia Shariaty, a civil engineering student. Today, we’re going to explore how a civil engineer looks at the process of building a house from start to finish, from initial planning and site preparation to structural work and the final stages of construction. At&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p class="align-right">فکر کن یک روز زامبی‌ها حمله کردن یا یک بمب هسته‌ای منفجر شده و تو به شکلی زنده موندی! حالا باید چی کار کنی؟ چطور زنده بمونی و چطور برای خودت یک سرپناه بسازی؟</p>
-<p class="align-right">خب، خداروشکر تا الان نه زامبی‌ها اومدن و نه بمب هسته‌ای منفجر شده! اما ایده‌ی زندگی در یک خانه مستقل، دور از شهر و در دل طبیعت، یکی از چیزهاییه که همیشه ذهن من رو به خودش مشغول کرده.</p>
-<p class="align-right">توی یکی از سفرهام به استرالیا، خانه‌ای دیدم که از نظر تأمین برق و آب مستقل بود و می‌تونست بخش زیادی از نیازهای روزمره‌اش رو بدون وابستگی به زیرساخت‌های شهری تأمین کنه.</p>
-<p class="align-right">این جور خانه‌ها همیشه من رو به وجد میارن. اینکه بتونی در یک نقطه دور از شهر زندگی کنی، انرژی مورد نیازت رو خودت تولید کنی، آب داشته باشی و برای نیازهای اساسی زندگی به زیرساخت‌های شهری وابسته نباشی، واقعاً جذابه.</p>
-<p class="align-right">اما یک سؤال مهم وجود داره: <strong>چطور می‌شه چنین خانه‌ای ساخت؟</strong></p>
-<p class="align-right">چه زمینی برای این کار مناسبه؟ چطور باید برق و آب رو تأمین کرد؟ برای فاضلاب، گرمایش، اینترنت و امنیت چه راه‌حل‌هایی وجود داره؟ و اصلاً ساخت چنین خانه‌ای چقدر هزینه داره؟</p>
-<p class="align-right">.توی این مقاله می‌خوام قدم‌به‌قدم بررسی کنم که برای ساخت یک خانه مستقل در دل طبیعت به چه چیزهایی نیاز داریم</p>
-<h2 class="align-right" data-pm-slice="1 1 []">قدم اول: پیدا کردن یک زمین مناسب</h2>
-<p class="align-right">اولین قدم برای ساخت خونه‌ات، پیدا کردن و خرید یک زمین مناسبه. طبیعتاً هیچ‌کس دلش نمی‌خواد از همون اول کارش رو با ساخت‌وساز غیرقانونی شروع کنه! پس باید سایت‌های فروش زمین رو بگردی و با توجه به بودجه و منطقه جغرافیایی موردنظرت، یک زمین مناسب پیدا کنی. البته قبل از خرید، حتماً مطمئن شو که اجازه ساخت خانه در اون زمین رو داری.</p>
-<h3 class="align-right"><span style="color: oklch(0.21 0.047 244);"><strong>حالا چه زمینی مناسبه؟</strong></span></h3>
-<p class="align-right">وجود آب در نزدیکی زمین یک مزیت خیلی بزرگه. برای همین، اگر بتونی زمینی نزدیک یک رودخانه پیدا کنی، ممکنه از نظر دسترسی به منابع آب گزینه جذابی باشه. البته نزدیکی به رودخانه خطر سیل و محدودیت‌های قانونی هم داره که باید بررسی بشن؛ ضمن اینکه نمی‌تونی بدون مجوز و تصفیه مناسب، آب رودخانه رو مستقیماً برای آشامیدن استفاده کنی.</p>
-<p class="align-right">اما اگر رودخانه‌ای در نزدیکی زمینت وجود نداشت، نگران نباش! هنوز راه‌های دیگه‌ای برای تأمین آب وجود داره؛ مثل جمع‌آوری آب باران یا استفاده از آب‌های زیرزمینی، البته در صورتی که شرایط زمین و قوانین محلی اجازه بدن.</p>
-<p class="align-right">در حالت ایدئال، بهتره زمینی انتخاب کنی که از ابتدا دسترسی مناسبی به آب داشته باشه؛ چون تأمین آب یکی از مهم‌ترین چالش‌های زندگی در یک خانه مستقله</p>
-<h2 class="align-right">قدم دوم: طراحی و ساخت خانه</h2>
-<p class="align-right">خب، حالا که زمین مناسب رو پیدا کردی، وقتشه به فکر ساخت خونه باشی! </p>
-<p class="align-right">اولین سؤال اینه که اصلاً چه جور خونه‌ای می‌خوای؟ یک کلبه چوبی کوچیک، یک خونه بتنی معمولی یا یک ساختمان مدرن که بتونه انرژی مورد نیازش رو خودش تأمین کنه؟</p>
-<p class="align-right">انتخاب با خودته، اما یادت باشه که قراره در یک منطقه دور از شهر زندگی کنی. پس خونه‌ات باید علاوه بر راحت بودن، در برابر شرایط آب‌وهوایی مقاوم باشه و نگهداری ازش هم دردسر زیادی نداشته باشه.</p>
-<h3 class="align-right"><strong> انتخاب مصالح ساختمانی</strong></h3>
-<p class="align-right">در محیط جنگلی، چوب می‌تونه یکی از گزینه‌های جذاب برای ساخت خانه باشه. وزن نسبتاً کم، سرعت ساخت مناسب و ظاهر طبیعی از مزایای اونه. البته چوب باید به‌درستی در برابر رطوبت، پوسیدگی، حشرات و آتش محافظت بشه.</p>
-<p class="align-right">بتن و فولاد هم گزینه‌های دیگه‌ای هستن که بسته به شرایط پروژه می‌تونن مناسب باشن. در نهایت، انتخاب مصالح به آب‌وهوا، بودجه، دسترسی به مصالح و طراحی سازه بستگی داره.</p>
-<h3 class="align-right">فونداسیون؛ پایه و اساس خانه</h3>
-<p class="align-right">فونداسیون بخشی از ساختمونه که وزن سازه رو به زمین منتقل می‌کنه. انتخاب نوع فونداسیون به عواملی مثل مقاومت خاک، وزن ساختمان، شیب زمین و شرایط آب زیرزمینی بستگی داره.</p>
-<p class="align-right">برای مثال، در بعضی زمین‌ها فونداسیون سطحی مناسبه، اما در زمین‌های سست ممکنه به راهکارهای مهندسی متفاوتی نیاز باشه. به همین دلیل، پیش از ساخت باید وضعیت خاک بررسی بشه.</p>
-<h3 class="align-right"> عایق‌کاری و کنترل رطوبت</h3>
-<p class="align-right">در جنگل، رطوبت می‌تونه یکی از مشکلات اصلی خونه‌ات باشه. اگر دیوارها و سقف به‌درستی عایق‌کاری نشن، ممکنه با اتلاف گرما، ایجاد رطوبت داخلی و آسیب دیدن مصالح روبه‌رو بشی.</p>
-<p class="align-right">عایق حرارتی مناسب، آب‌بندی سقف، زهکشی اطراف ساختمان و جلوگیری از نفوذ رطوبت به فونداسیون، نقش مهمی در دوام خانه دارن.</p>
-<h3 class="align-right"> تهویه و کیفیت هوای داخل خانه</h3>
-<p class="align-right">وقتی خانه رو عایق می‌کنی، باید به گردش هوای تازه هم توجه داشته باشی. تهویه مناسب به کاهش رطوبت داخلی، جلوگیری از رشد کپک و حفظ کیفیت هوای داخل خانه کمک می‌کنه.</p>
-<p class="align-right">بسته به طراحی و شرایط آب‌وهوایی، می‌تونی از تهویه طبیعی یا سیستم تهویه مکانیکی استفاده کنی.</p>
-<h3 class="align-right"> ایمنی و مقاومت در برابر شرایط محیطی</h3>
-<p class="align-right">ساخت خانه در دل جنگل فقط به ساخت دیوار و سقف محدود نمی‌شه. باید خطر آتش‌سوزی جنگلی، طوفان، برف سنگین و سیلاب رو هم در نظر بگیری.</p>
-<p class="align-right">انتخاب محل مناسب برای ساختمان، طراحی اصولی سقف و سازه، استفاده از مصالح متناسب با خطرات منطقه و پیش‌بینی مسیر دسترسی اضطراری، همگی اهمیت دارن.</p>
-<p class="align-right"><strong>در نهایت، هدف ساخت یک خانه زیبا به هر قیمتی نیست؛ هدف اینه که خانه‌ای امن، بادوام و کم‌دردسر داشته باشی که </strong><strong>بتونی سال‌ها در اون زندگی کنی.</strong></p>
-<h2 class="align-right">قدم سوم: تأمین آب</h2>
-<p class="align-right">خب، تا اینجا زمین رو پیدا کردیم و خونه‌مون رو هم ساختیم. اما یک سؤال مهم باقی مونده: قراره آب مورد نیازمون رو از کجا تأمین کنیم؟</p>
-<p class="align-right">وقتی وسط جنگل و دور از شهر زندگی می‌کنی، نمی‌تونی همیشه روی شبکه آب شهری حساب کنی. پس باید از قبل برای تأمین آب آشامیدنی، حمام، شست‌وشو و سایر نیازهای روزمره فکری کرده باشی.</p>
-<h3 class="align-right"> حفر چاه و استفاده از آب‌های زیرزمینی</h3>
-<p class="align-right">یکی از گزینه‌ها، استفاده از آب‌های زیرزمینیه. اگر شرایط زمین مناسب باشه، می‌تونی با بررسی‌های تخصصی و دریافت مجوزهای لازم، چاه حفر کنی و با استفاده از پمپ، آب رو به خونه انتقال بدی.</p>
-<p class="align-right">البته حفر چاه همیشه امکان‌پذیر نیست. ممکنه سطح آب زیرزمینی خیلی پایین باشه یا کیفیت آب برای مصرف مناسب نباشه. بنابراین، قبل از هر اقدامی باید وضعیت منابع آب منطقه، هزینه حفاری و کیفیت آب بررسی بشه.</p>
-<p class="align-right">یادت باشه که شفاف بودن آب به معنی آشامیدنی بودن اون نیست؛ آب چاه باید از نظر آلودگی‌های میکروبی و شیمیایی آزمایش بشه و در صورت نیاز، تصفیه مناسبی براش در نظر بگیری.</p>
-<h3 class="align-right"> جمع‌آوری آب باران</h3>
-<p class="align-right">یکی از روش‌های جالب برای تأمین آب در یک خانه مستقل، جمع‌آوری آب بارونه.</p>
-<p class="align-right">ایده ساده‌ست: آب باران از سقف خونه وارد ناودان‌ها می‌شه، از فیلتر اولیه عبور می‌کنه و داخل یک مخزن ذخیره می‌شه. بعد می‌تونی از این آب برای آبیاری باغچه، شست‌وشو و سایر مصارف مناسب استفاده کنی.</p>
-<p class="align-right">اگر قصد استفاده از آب باران برای آشامیدن رو داری، باید سیستم جمع‌آوری، مخزن، فیلتراسیون و ضدعفونی مناسب داشته باشی و کیفیت آب رو به‌طور منظم بررسی کنی.</p>
-<p class="align-right">البته یک نکته مهم وجود داره: مقدار آبی که جمع می‌کنی به میزان بارندگی منطقه و مساحت سقف بستگی داره. پس اگر منطقه‌ای که انتخاب کردی بارندگی کمی داشته باشه، احتمالاً نمی‌تونی فقط با آب باران تمام نیازهای خونه رو تأمین کنی.</p>
-<h3 class="align-right"> تصفیه و ذخیره آب</h3>
-<p class="align-right">حالا فرض کن آب مورد نیازت رو از چاه یا باران تأمین کردی. مرحله بعد اینه که مطمئن بشی آب برای مصرف موردنظرت مناسبه.</p>
-<p class="align-right">بسته به منبع آب و نتایج آزمایش، ممکنه به فیلترهای ذرات، کربن فعال، ضدعفونی یا روش‌های تخصصی‌تری مثل اسمز معکوس نیاز داشته باشی. هیچ سیستم تصفیه‌ای برای همه آلودگی‌ها مناسب نیست؛ بنابراین، روش تصفیه باید بر اساس کیفیت واقعی آب انتخاب بشه.</p>
-<p class="align-right">علاوه بر تصفیه، داشتن مخزن ذخیره هم اهمیت زیادی داره. مخزن مناسب کمک می‌کنه در دوره‌های کم‌بارندگی یا هنگام خرابی موقت پمپ، ذخیره‌ای از آب در اختیار داشته باشی.</p>
-<h3 class="align-right">در نهایت، بهترین راه کدومه؟</h3>
-<p class="align-right">اگر بخوام برای یک خانه مستقل در دل جنگل برنامه‌ریزی کنم، اول منابع آب منطقه رو بررسی می‌کنم؛ بعد، در صورت امکان و با رعایت قوانین، یک منبع اصلی مثل چاه مجاز در نظر می‌گیرم و از جمع‌آوری آب باران به‌عنوان منبع مکمل استفاده می‌کنم.</p>
-<p class="align-right">هدف اینه که در فصل‌های خشک یا هنگام خرابی تجهیزات، زندگی روزمره‌ات به مشکل نخوره.</p>
-<p class="align-right">چون در یک خانه مستقل، فقط داشتن آب مهم نیست؛ باید بتونی اون رو به‌صورت ایمن تأمین، تصفیه و ذخیره کنی.</p>
-<h2 class="align-right">قدم چهارم: تأمین برق</h2>
-<p class="align-right">خب، حالا که برای آب فکری کردیم، وقتشه بریم سراغ یکی از جذاب‌ترین قسمت‌های ساخت یک خانه مستقل: تولید برق خودمون!</p>
-<p class="align-right">تصور کن وسط جنگل زندگی می‌کنی، اما همچنان چراغ‌ها روشنن، یخچالت کار می‌کنه، لپ‌تاپت شارژ می‌شه و حتی می‌تونی از اینترنت استفاده کنی. برای رسیدن به این وضعیت، یکی از گزینه‌های اصلی، استفاده از سیستم برق خورشیدیه.</p>
-<h3 class="align-right">پنل‌های خورشیدی؛ نیروگاه کوچک خودت رو بساز!</h3>
-<p class="align-right">پنل‌های خورشیدی نور خورشید رو به انرژی الکتریکی تبدیل می‌کنن. می‌تونی اون‌ها رو روی سقف خونه یا در یک فضای باز و آفتاب‌گیر نصب کنی.</p>
-<p class="align-right">اما قبل از خرید پنل‌ها، باید بدونی قراره چه وسایلی رو با برق خورشیدی روشن کنی. برق مورد نیاز یک خانه کوچک با چراغ‌های LED، یخچال و لپ‌تاپ با برق مورد نیاز خانه‌ای که سیستم گرمایش برقی، اجاق برقی و تجهیزات پرمصرف داره، تفاوت زیادی داره.</p>
-<p class="align-right">نکته مهم اینه که در محیط جنگلی، سایه درختان می‌تونه تولید برق رو به‌شدت کاهش بده. بنابراین، انتخاب محل نصب پنل‌ها و بررسی میزان تابش خورشید اهمیت زیادی داره.</p>
-<h3 class="align-right"> باتری؛ برق رو برای شب ذخیره کن!</h3>
-<p class="align-right">یک مشکل ساده وجود داره: پنل‌های خورشیدی در شب برق تولید نمی‌کنن و در روزهای ابری هم ممکنه تولیدشون کاهش پیدا کنه.</p>
-<p class="align-right">اینجاست که باتری وارد ماجرا می‌شه. باتری انرژی تولیدشده در طول روز رو ذخیره می‌کنه تا بتونی شب‌ها یا در زمان کاهش تابش خورشید ازش استفاده کنی.</p>
-<p class="align-right">ظرفیت باتری باید متناسب با مصرف روزانه و مدت زمانی که می‌خوای بدون تولید کافی برق دوام بیاری، انتخاب بشه. البته باتری‌ها هزینه قابل‌توجهی دارن و عمر محدودی هم دارن؛ پس باید هزینه تعویض اون‌ها رو هم در برنامه‌ات در نظر بگیری.</p>
-<h3 class="align-right"> اینورتر و تجهیزات کنترلی؛ برق قابل استفاده تولید کن!</h3>
-<p class="align-right">پنل‌های خورشیدی معمولاً برق مستقیم (DC) تولید می‌کنن، درحالی‌که بیشتر وسایل خانگی به برق متناوب (AC) نیاز دارن.</p>
-<p class="align-right">برای همین، در یک سیستم معمولی به اینورتر نیاز داری تا برق رو به شکل مناسب برای وسایل خانگی تبدیل کنه. همچنین کنترل‌کننده شارژ و تجهیزات حفاظتی مناسب به عملکرد ایمن سیستم کمک می‌کنن.</p>
-<p class="align-right">البته طراحی دقیق این تجهیزات باید با توجه به ولتاژ، توان مصرفی، باتری و نوع سیستم انجام بشه.</p>
-<h3 class="align-right">۴. ژنراتور پشتیبان؛ برای روزهایی که خورشید کافی نیست</h3>
-<p class="align-right">فرض کن چند روز هوا ابریه و باتری‌ها هم رو به خالی شدن هستن. اگر برق برای پمپ آب، یخچال یا تجهیزات ضروری لازم داشته باشی، چه کار می‌کنی؟</p>
-<p class="align-right">یک راه‌حل، داشتن ژنراتور پشتیبانه که در مواقع ضروری برق تولید کنه. البته ژنراتور به سوخت نیاز داره و باید در فضای بیرون، دور از پنجره‌ها و ورودی هوای ساختمان استفاده بشه تا خطر مسمومیت با مونوکسیدکربن ایجاد نکنه.</p>
-<p class="align-right">به این ترتیب، می‌تونی وابستگی به ژنراتور رو به حداقل برسونی و در شرایط خاص ازش استفاده کنی.</p>
-<h3 class="align-right">در نهایت، چه سیستمی مناسب‌تره؟</h3>
-<p class="align-right">برای یک خانه کوچک در دل جنگل، ترکیب پنل خورشیدی، باتری و یک منبع پشتیبان می‌تونه گزینه مناسبی باشه. اما اندازه سیستم به محل زندگی، فصل‌ها، میزان تابش خورشید و مصرف واقعی برق بستگی داره.</p>
-<p class="align-right">یک نکته رو هم فراموش نکن: <strong>بهترین راه صرفه‌جویی در برق، تولید برق بیشتر نیست؛ بلکه کاهش مصرف غیرضروریه.</strong> استفاده از چراغ‌های کم‌مصرف، لوازم خانگی کارآمد و طراحی مناسب ساختمان می‌تونه هزینه اولیه سیستم رو کاهش بده.</p>
-<p class="align-right">هدف نهایی اینه که برق مورد نیازت رو با هزینه منطقی و بدون وابستگی دائمی به شبکه شهری تأمین کنی.</p>
-<h2 class="align-right">قدم پنجم: گرمایش و سرمایش؛ چطور خونه رو در تمام سال قابل زندگی نگه داریم؟</h2>
-<p class="align-right">خب، تا اینجا برای آب و برق خونه فکری کردیم. اما تصور کن وسط زمستون در یک جنگل سرد زندگی می‌کنی یا تابستون دمای داخل خونه به‌شدت بالا می‌ره. چطور می‌خوای شرایط رو قابل تحمل نگه داری؟</p>
-<p class="align-right">وقتی از شهر دور هستی، نمی‌تونی همیشه روی سیستم‌های گرمایشی و سرمایشی معمول حساب کنی. بنابراین، بهتره از همون مرحله طراحی، به فکر کنترل دمای خونه باشی.</p>
-<h3 class="align-right"> عایق‌کاری؛ اولین قدم برای کاهش مصرف انرژی</h3>
-<p class="align-right">یکی از مهم‌ترین کارها، عایق‌کاری مناسبه. دیوارها، سقف، کف و پنجره‌ها می‌تونن باعث اتلاف گرما در زمستون یا ورود گرما در تابستون بشن.</p>
-<p class="align-right">با استفاده از عایق حرارتی مناسب، پنجره‌های کارآمد و آب‌بندی درست، می‌تونی دمای داخل خونه رو پایدارتر نگه داری و انرژی کمتری برای گرمایش و سرمایش مصرف کنی.</p>
-<p class="align-right">البته در مناطق جنگلی، کنترل رطوبت هم اهمیت زیادی داره؛ چون طراحی نامناسب دیوارها و سقف می‌تونه باعث تجمع رطوبت و رشد کپک بشه.</p>
-<h3 class="align-right">طراحی غیرفعال؛ از طبیعت به نفع خودت استفاده کن!</h3>
-<p class="align-right">طراحی غیرفعال (Passive Design) یعنی ساختمان رو طوری طراحی کنی که بدون مصرف زیاد انرژی، از نور خورشید، سایه، جریان هوا و ویژگی‌های محیط برای کنترل دما استفاده کنه.</p>
-<p class="align-right">برای مثال، اگر در نیمکره شمالی زندگی می‌کنی، پنجره‌های جنوبی می‌تونن در زمستون به دریافت گرمای خورشید کمک کنن؛ البته مقدار مناسب به آب‌وهوا، سایه درختان و طراحی ساختمان بستگی داره.</p>
-<p class="align-right">در تابستون هم سایه‌بان مناسب، جلوگیری از تابش مستقیم خورشید و تهویه طبیعی در شرایط مناسب می‌تونن به خنک موندن خونه کمک کنن.</p>
-<p class="align-right">در واقع، به‌جای اینکه تمام مشکلات دمایی رو با دستگاه‌های برقی حل کنی، از ابتدا ساختمون رو هوشمندانه طراحی می‌کنی.</p>
-<h3 class="align-right"> سیستم گرمایشی؛ انتخابی متناسب با شرایط زندگی</h3>
-<p class="align-right">حتی با عایق‌کاری خوب، در مناطق سرد به یک منبع گرمایشی نیاز داری.</p>
-<p class="align-right">یکی از گزینه‌ها، پمپ حرارتیه که با مصرف برق، گرما رو از محیط به داخل ساختمان منتقل می‌کنه. این سیستم‌ها می‌تونن برای خانه‌های مستقل مناسب باشن، به‌خصوص اگر سیستم برق خورشیدی ظرفیت کافی داشته باشه.</p>
-<p class="align-right">بخاری هیزمی هم برای بعضی خانه‌های جنگلی جذابه؛ چون در صورت دسترسی پایدار و قانونی به هیزم خشک، می‌تونه منبع گرمایشی مستقلی باشه. اما نصب اصولی دودکش، تهویه مناسب، رعایت فاصله ایمن از مواد قابل اشتعال و نصب هشداردهنده مونوکسیدکربن ضروریه. در مناطق مستعد آتش‌سوزی جنگلی هم باید محدودیت‌های محلی رو بررسی کنی.</p>
-<h3 class="align-right"> سرمایش؛ آیا واقعاً به کولر نیاز داری؟</h3>
-<p class="align-right">این موضوع کاملاً به اقلیم منطقه بستگی داره. در بعضی مناطق معتدل، ترکیب عایق‌کاری، سایه و تهویه طبیعی ممکنه کافی باشه؛ اما در مناطق گرم و مرطوب، احتمالاً به سیستم سرمایشی نیاز داری.</p>
-<p class="align-right">اگر سیستم برق خورشیدی داری، بهتره از ابتدا مصرف برق دستگاه سرمایشی رو در محاسباتت لحاظ کنی؛ چون استفاده طولانی‌مدت از کولر می‌تونه ظرفیت مورد نیاز پنل‌ها و باتری‌ها رو افزایش بده.</p>
-<h3 class="align-right">در نهایت، بهترین راه چیه؟</h3>
-<p class="align-right">اگر بخوام یک خانه مستقل در دل جنگل بسازم، اول اقلیم منطقه رو بررسی می‌کنم، بعد عایق‌کاری و طراحی غیرفعال رو جدی می‌گیرم و در نهایت، سیستم گرمایشی و سرمایشی رو متناسب با شرایط انتخاب می‌کنم.</p>
-<p class="align-right"><strong>اصل ماجرا اینه: خانه‌ای که از ابتدا درست طراحی شده باشه، برای گرم موندن در زمستون و خنک موندن در تابستون انرژی کمتری مصرف می‌کنه.</strong> این یعنی هزینه کمتر، نیاز کمتر به تجهیزات و استقلال بیشتر.</p>
-<h2 class="align-right">قدم ششم: فاضلاب و مدیریت پسماند؛ با زباله‌هات چی کار می‌کنی؟</h2>
-<p class="align-right">خب، تا اینجا برای آب، برق و دمای خونه فکری کردیم. اما یک مشکل مهم باقی مونده: فاضلاب و زباله‌ها!</p>
-<p class="align-right">وقتی وسط جنگل زندگی می‌کنی، دیگه نمی‌تونی همه‌چیز رو وارد لوله فاضلاب شهری کنی یا زباله‌هات رو بیرون خونه بذاری و انتظار داشته باشی کسی اون‌ها رو جمع کنه. باید از قبل برای این موضوع برنامه داشته باشی؛ چون مدیریت نادرست پسماند می‌تونه به خاک، منابع آب و حیات‌وحش آسیب بزنه.</p>
-<h3 class="align-right"> سیستم فاضلاب</h3>
-<p class="align-right">یکی از راه‌حل‌های متداول برای خانه‌هایی که به شبکه فاضلاب شهری دسترسی ندارن، استفاده از مخزن سپتیک و سیستم تصفیه و دفع فاضلابه.</p>
-<p class="align-right">در یک سیستم سپتیک معمولی، فاضلاب وارد مخزن می‌شه و مواد جامد از مایع جدا می‌شن. پساب خروجی هم باید با توجه به طراحی سیستم و قوانین منطقه، به مرحله مناسب تصفیه و دفع برسه.</p>
-<p class="align-right">البته نصب چنین سیستمی به شرایط خاک، سطح آب زیرزمینی، فاصله از چاه آب و رودخانه و مقررات محلی بستگی داره. سپتیک هم یک مخزن جادویی نیست؛ باید به‌طور دوره‌ای بازرسی و تخلیه بشه و در صورت نیاز تعمیرات انجام بشه.</p>
-<p class="align-right">اگر شرایط زمین مناسب نباشه، ممکنه به یک سیستم تصفیه متفاوت نیاز داشته باشی.</p>
-<h3 class="align-right">توالت کمپوستی</h3>
-<p class="align-right">یک راه‌حل دیگه، استفاده از توالت کمپوستیه. این سیستم‌ها با مدیریت مناسب پسماند انسانی، رطوبت و فرایند تجزیه زیستی، می‌تونن نیاز به بعضی زیرساخت‌های فاضلابی رو کاهش بدن.</p>
-<p class="align-right">اما انتخاب و استفاده از اون‌ها باید مطابق مقررات بهداشتی محلی باشه. همچنین باید برای مدیریت ایمن مواد خروجی و جلوگیری از آلودگی آب و خاک برنامه داشته باشی. توالت کمپوستی هم لزوماً مشکل تمام فاضلاب خانه، مثل آب حمام و آشپزخونه، رو حل نمی‌کنه.</p>
-<h3 class="align-right"> زباله‌های روزمره؛ کمتر تولید کن، بهتر مدیریت کن</h3>
-<p class="align-right">برای زباله‌های معمولی، اولین قدم اینه که تا جای ممکن زباله کمتری تولید کنی.</p>
-<ul class="align-right">
-<li>
-<p><strong>بازیافت:</strong> کاغذ، فلز، شیشه و پلاستیک‌های قابل‌بازیافت رو جدا نگه دار و در زمان مناسب به مراکز جمع‌آوری منتقل کن.</p>
-</li>
-<li>
-<p><strong>کمپوست:</strong> باقی‌مانده میوه و سبزیجات و مواد آلی مناسب رو می‌تونی در یک سیستم کمپوست مدیریت کنی؛ البته باید از جذب حیوانات و ایجاد آلودگی جلوگیری کنی.</p>
-</li>
-<li>
-<p><strong>زباله‌های غیرقابل‌بازیافت:</strong> برای انتقال و دفع قانونی اون‌ها برنامه داشته باش.</p>
-</li>
-<li>
-<p><strong>مواد خطرناک:</strong> باتری‌ها، روغن‌ها و مواد شیمیایی رو وارد خاک یا آب نکن و به مراکز مجاز تحویل بده.</p>
-</li>
-</ul>
-<p class="align-right">یک نکته مهم: زندگی در دل جنگل به این معنی نیست که باید تمام زباله‌ها رو خودت بسوزونی یا دفن کنی. این کار می‌تونه خطر آتش‌سوزی یا آلودگی محیط‌زیست رو افزایش بده.</p>
-<h3 class="align-right">در نهایت، چطور یک سیستم مناسب انتخاب کنیم؟</h3>
-<p class="align-right">برای یک خانه مستقل، باید از ابتدا هم فاضلاب و هم زباله رو در طراحی در نظر بگیری. نوع سیستم فاضلاب به شرایط زمین و قوانین محلی بستگی داره؛ برای زباله هم بهتره ترکیبی از کاهش مصرف، جداسازی، کمپوست و انتقال اصولی پسماند داشته باشی.</p>
-<p class="align-right"><strong>استقلال واقعی یعنی بتونی نیازهای خونه‌ات رو مدیریت کنی، بدون اینکه برای حل مشکلات خودت، محیطی رو که در اون زندگی می‌کنی آلوده کنی.</strong></p>
-<h2 class="align-right">قدم هفتم: هزینه و نگهداری؛ آیا واقعاً از پسش برمیای؟</h2>
-<p class="align-right">خب، رسیدیم به یکی از مهم‌ترین قسمت‌های ماجرا: پول!</p>
-<p class="align-right">ساخت یک خانه در دل جنگل و زندگی مستقل از شهر جذابه، اما قبل از اینکه همه‌چیز رو رها کنی و راهی طبیعت بشی، باید ببینی این رؤیا چقدر هزینه داره و آیا می‌تونی در بلندمدت از پس نگهداریش بربیای یا نه.</p>
-<h3 class="align-right"> هزینه ساخت خانه</h3>
-<p class="align-right">اولین هزینه، خرید زمینه؛ اما همون‌طور که قبلاً گفتیم، قیمت زمین فقط شروع ماجراست.</p>
-<p class="align-right">باید هزینه طراحی و ساخت ساختمان، آماده‌سازی زمین، فونداسیون، مصالح، عایق‌کاری و تجهیزات داخلی رو هم در نظر بگیری. اگر زمینت از جاده دور باشه، انتقال مصالح و ساخت مسیر دسترسی هم می‌تونه هزینه زیادی به پروژه اضافه کنه.</p>
-<p class="align-right">علاوه بر این، تجهیزات مورد نیاز برای زندگی مستقل، مثل پنل‌های خورشیدی، باتری، مخزن آب، پمپ، سیستم تصفیه و فاضلاب، هرکدوم هزینه جداگانه‌ای دارن.</p>
-<p class="align-right">پس بهتره قبل از خرید زمین، یک برآورد اولیه از کل پروژه تهیه کنی؛ نه اینکه تمام بودجه‌ات رو صرف خرید زمین کنی و بعد برای ساخت خونه پول کافی نداشته باشی!</p>
-<h3 class="align-right">هزینه‌های پنهان و تعمیرات</h3>
-<p class="align-right">فرض کن خونه ساخته شده و همه‌چیز هم خوب پیش می‌ره. آیا هزینه‌ها تموم شدن؟ نه دقیقاً!</p>
-<p class="align-right">باتری‌های سیستم خورشیدی عمر محدودی دارن و ممکنه بعد از چند سال نیاز به تعویض پیدا کنن. پمپ آب، اینورتر، فیلترهای تصفیه و سایر تجهیزات هم ممکنه خراب بشن یا به سرویس دوره‌ای نیاز داشته باشن.</p>
-<p class="align-right">از طرف دیگه، سقف، دیوارها، پنجره‌ها و سازه هم باید مرتب بررسی بشن؛ به‌خصوص در محیط‌های مرطوب که احتمال پوسیدگی چوب و آسیب ناشی از رطوبت وجود داره.</p>
-<p class="align-right">برای همین، همیشه بخشی از بودجه‌ات رو برای تعمیرات و تعویض تجهیزات کنار بذار.</p>
-<h3 class="align-right"> دسترسی به خدمات و امکانات</h3>
-<p class="align-right">زندگی دور از شهر به معنی بی‌نیازی از تمام خدمات شهری نیست.</p>
-<p class="align-right">ممکنه برای خرید مواد غذایی، تهیه قطعات یدکی، تعمیر تجهیزات یا مراجعه به پزشک مجبور باشی مسافت زیادی طی کنی. حتی یک خرابی ساده در پمپ آب یا سیستم برق، اگر قطعه مورد نیاز در دسترس نباشه، می‌تونه زندگی روزمره‌ات رو مختل کنه.</p>
-<p class="align-right">پس هنگام انتخاب زمین، فاصله تا نزدیک‌ترین شهر، وضعیت جاده و دسترسی به خدمات ضروری رو هم بررسی کن.</p>
-<h3 class="align-right"> آمادگی برای شرایط اضطراری</h3>
-<p class="align-right">یکی از اصول مهم زندگی مستقل، آماده بودن برای روزهاییه که همه‌چیز طبق برنامه پیش نمی‌ره.</p>
-<p class="align-right">برای مثال، اگر چند روز هوا ابری باشه و برق کافی تولید نشه، باید راهی برای تأمین انرژی تجهیزات ضروری داشته باشی. اگر پمپ آب خراب بشه، داشتن مقداری آب ذخیره می‌تونه کمکت کنه. در مناطق جنگلی هم باید خطر آتش‌سوزی، طوفان، سیل و مسدود شدن مسیر دسترسی رو جدی بگیری.</p>
-<p class="align-right">بهتره یک برنامه اضطراری داشته باشی که شامل ذخیره مناسب آب و مواد غذایی، جعبه کمک‌های اولیه، وسایل ارتباطی و روش تماس با نیروهای امدادی باشه.</p>
-<h3 class="align-right">در نهایت، چقدر پول نیاز داری؟</h3>
-<p class="align-right">پاسخ دقیق به کشور، قیمت زمین، اندازه خانه، نوع مصالح، شرایط آب‌وهوایی و سطح استقلال موردنظرت بستگی داره. یک کلبه کوچک با امکانات ساده، هزینه‌ای بسیار متفاوت از یک خانه مدرن با سیستم برق خورشیدی بزرگ و تجهیزات کامل خواهد داشت.</p>
-<p class="align-right">برای برآورد درست، هزینه‌ها رو در سه گروه قرار بده:</p>
-<ul class="align-right">
-<li>
-<p><strong>هزینه اولیه:</strong> خرید زمین، طراحی، ساخت و نصب تجهیزات.</p>
-</li>
-<li>
-<p><strong>هزینه جاری:</strong> آب، سوخت، نگهداری، حمل‌ونقل و سایر نیازهای روزمره.</p>
-</li>
-<li>
-<p><strong>هزینه‌های پیش‌بینی‌نشده:</strong> تعمیرات اساسی، تعویض تجهیزات و حوادث اضطراری.</p>
-</li>
-</ul>
-<p class="align-right">در نهایت، هدف این نیست که صرفاً یک خانه بسازی؛ باید بتونی سال‌ها ازش نگهداری کنی و با خیال راحت در اون زندگی کنی.</p>
-<p class="align-right"><strong>خانه مستقل زمانی واقعاً مستقل می‌شه که علاوه بر ساختنش، توانایی نگهداری و تأمین هزینه‌های زندگی در اون رو هم داشته باشی.</strong></p>
-<p class="align-right"> </p>
-<p class="align-right"> </p>
+                    <p><img src="https://iliashariat86-beep.github.io/ilia-shariat.github.io/media/posts/4/kKKjvnWEZ6xTtLKT8AyskfUdMntAPXPMDFE-c4cVIJZtPs5JrZNXTHDIc0e5Vc9TMwAddPQNEI-5CKpFC7PeblguMWmSoEsKTcID1LPel-aEPENnxMjbGGfGn6abwfWBYulUvoAhJyTaVraG2mGRdPo84Rrk6kE9DdJl5enS97HIQQ968T4YTEsI8knzE2gH.jpg" class="type:primaryImage" alt="" /></p>
+                <p class="MsoNormal" style="text-align: justify;">Hi, I’m Ilia Shariaty, a civil engineering student. Today, we’re going to explore how a civil engineer looks at the process of building a house from start to finish, from initial planning and site preparation to structural work and the final stages of construction. At each stage, we’ll look at what happens and how the project moves forward.</p>
+<h2 class="MsoNormal"><strong>Phase 1: Before Construction Begins</strong></h2>
+<p class="MsoNormal" style="text-align: justify;"><strong>Before building a house, we need to assess the site and its surroundings to determine whether the land is suitable for construction. Four key factors must be considered at this stage.</strong></p>
+<h4>1. Groundwater Level</h4>
+<p class="MsoNormal" style="text-align: justify;">Before construction begins, we need to determine how deep the groundwater is and whether it could affect the foundation, soil stability, or the long-term durability of the structure.</p>
+<h6><strong>Why is this important?</strong></h6>
+<p class="MsoNormal" style="text-align: justify;">A high groundwater level can make foundation work more challenging and affect the behavior of the soil. Water may also seep into the excavation, making drainage or dewatering necessary. In some cases, groundwater can cause corrosion of construction materials and damage underground structural elements.</p>
+<h4>2. Soil Investigation</h4>
+<p class="MsoNormal" style="text-align: justify;">The soil beneath a building plays a crucial role in supporting the structure and transferring its loads to the ground. Before construction begins, the soil must be examined to determine its type and physical and mechanical properties. This includes assessing its bearing capacity, which indicates how much load it can safely support, as well as its compaction and moisture content. Soil settlement must also be considered, as excessive or uneven settlement can lead to structural damage.</p>
+<h4>3. Bearing Capacity Assessment</h4>
+<p class="MsoNormal" style="text-align: justify;">Once the soil has been investigated, the next step is to determine whether it can safely support the building's loads. Engineers do this by carrying out field and laboratory tests to understand the soil's properties, then calculating its bearing capacity based on the soil type, ground conditions, and foundation dimensions. They also compare the pressure exerted by the building with the soil's allowable bearing capacity and assess the risk of settlement. These findings help engineers choose a suitable foundation type and determine its dimensions.</p>
+<h4 data-pm-slice="1 1 []">4. Environmental Assessment and Site Hazards</h4>
+<p class="MsoNormal" style="text-align: justify;">Before construction begins, the site's environmental conditions and surrounding area must be assessed to identify potential hazards and understand how the project may affect the environment.</p>
+<p class="MsoNormal" style="text-align: justify;">This assessment includes examining local climate conditions, such as rainfall, temperature, humidity, wind, and freezing temperatures. Natural hazards, including earthquakes, floods, landslides, and soil erosion, must also be considered. In addition, the surrounding vegetation, wildlife, and water resources should be evaluated, along with any potential contamination of the soil, groundwater, or air.</p>
+<p class="MsoNormal" style="text-align: justify;">Understanding these factors helps engineers identify site limitations, reduce risks, and plan construction more safely and effectively.</p>
+<p class="MsoNormal" style="text-align: justify;"> </p>
+<h2 data-pm-slice="1 1 []">Phase 2: Foundation Construction</h2>
+<p class="MsoNormal" style="text-align: justify;">After determining the exact building location and completing the initial site investigations, the ground must be prepared for foundation construction. The foundation transfers the building's loads to the soil, and its proper construction is essential for structural stability.</p>
+<h3>Main Stages of Foundation Construction</h3>
+<h4>1. Topsoil Removal</h4>
+<p class="MsoNormal" style="text-align: justify;">At this stage, the top layer of soil, which typically contains plant roots, organic matter, and loose soil, is removed from the construction site. These materials can reduce the stability of the foundation base and contribute to future soil settlement.</p>
+<p class="MsoNormal" style="text-align: justify;">This operation is usually carried out using machinery such as excavators and bulldozers. The depth of topsoil removal depends on the site conditions and the findings of the geotechnical investigation.</p>
+<h4 data-pm-slice="1 1 []">2. Excavation</h4>
+<p class="MsoNormal" style="text-align: justify;">At this stage, the soil is excavated to the depth and dimensions specified in the construction drawings. This creates the space needed to build the foundation according to the engineering design and ensures that the structure can be constructed on a suitable base.</p>
+<h4>3. Footing Construction</h4>
+<p class="MsoNormal" style="text-align: justify;">A footing is the base of a foundation, typically located beneath columns or load-bearing walls. Its purpose is to transfer the building's loads to the soil and distribute them over a larger area, reducing the pressure on the ground.</p>
+<p class="MsoNormal" style="text-align: justify;">For example, snowshoes spread a person's weight over a larger surface area, preventing them from sinking too deeply into the snow. In a similar way, footings distribute building loads over a wider area of soil, helping to limit excessive settlement.</p>
+<h4 class="MsoNormal" style="text-align: justify;"><strong>4. Foundation Walls</strong></h4>
+<p class="MsoNormal" style="text-align: justify;">After the footings have been constructed, the foundation walls are built to transfer loads from the upper parts of the building to the footings. These walls are commonly made of reinforced concrete to provide sufficient strength against structural loads and lateral earth pressure.</p>
+<p class="MsoNormal" style="text-align: justify;">In buildings with basements, foundation walls also retain the surrounding soil and prevent it from collapsing into the basement. In addition, when these walls are in contact with moist soil, proper waterproofing is essential to prevent water from entering the building.</p>
+<h3 class="MsoNormal"><strong>Additional Foundation Features</strong></h3>
+<p>Depending on the site conditions, local climate, and building design, the following additional measures may be necessary to protect the foundation</p>
+<p><strong>1. Thermal Insulation</strong></p>
+<p class="MsoNormal" style="text-align: justify;">Foundation thermal insulation uses materials that reduce heat transfer between the building and the surrounding soil. This helps maintain indoor temperatures, reduce energy consumption for heating and cooling, and protect below-ground areas from temperature changes. The need for thermal insulation depends on the local climate and the building design.</p>
+<h5 class="MsoNormal"><strong>2. Waterproofing</strong></h5>
+<p class="MsoNormal" style="text-align: justify;">Waterproofing involves applying protective coatings and using waterproof materials to prevent moisture and groundwater from penetrating the foundation and below-ground parts of the building. This helps reduce the risk of reinforcement corrosion, concrete deterioration, and moisture problems in basements. The type of waterproofing and installation method depend on soil conditions, groundwater levels, and the building design.</p>
+<h5 class="MsoNormal"><strong>3. Drainage System</strong></h5>
+<p class="MsoNormal" style="text-align: justify;">A drainage system collects and redirects surface water and groundwater to prevent water from accumulating around the foundation. By reducing water pressure against basement walls and limiting moisture infiltration, it helps protect the structure and reduce the risk of water-related damage. The drainage system's design depends on soil conditions, groundwater levels, and site characteristics.</p>
+<h3 data-pm-slice="1 1 []">Phase Three: Structural Framing and Building Services</h3>
+<p>At this stage, the building’s main structural elements, including columns, beams, and floor slabs, are constructed. The walls and main components of the building’s external envelope are then put in place to protect the interior from weather conditions.</p>
+<p>As construction progresses, building services are also installed according to the technical drawings. These include water supply and drainage pipes, electrical wiring, and heating, cooling, and ventilation systems (HVAC).</p>
+<p class="MsoNormal"><strong>References</strong></p>
+<ol style="margin-top: 0in;" start="1" type="1">
+<li class="MsoNormal" style="mso-list: l0 level1 lfo1; tab-stops: list .5in;"><strong>Canadian Home Builders’ Association (CHBA).</strong> <i>The Construction Process.</i><br><a href="https://www.chba.ca/the-construction-process/">https://www.chba.ca/the-construction-process/</a></li>
+<li class="MsoNormal" style="mso-list: l0 level1 lfo1; tab-stops: list .5in;"><strong>YourHome.</strong> <i>Building a House.</i><br><a href="https://www.yourhome.gov.au/buy-build-renovate/build-house">https://www.yourhome.gov.au/buy-build-renovate/build-house</a></li>
+<li class="MsoNormal" style="mso-list: l0 level1 lfo1; tab-stops: list .5in;"><strong>Homebuilding &amp; Renovating.</strong> <i>Building a House: The Step-by-Step Guide.</i><br><a href="https://www.homebuilding.co.uk/advice/building-a-house-the-step-by-step-guide">https://www.homebuilding.co.uk/advice/building-a-house-the-step-by-step-guide</a></li>
+<li class="MsoNormal" style="mso-list: l0 level1 lfo1; tab-stops: list .5in;"><strong>Whole Building Design Guide (WBDG).</strong> <i>Residential Building Enclosure.</i><br><a href="https://legacy.wbdg.org/resources/residential-building-enclosure">https://legacy.wbdg.org/resources/residential-building-enclosure</a></li>
+<li class="MsoNormal" style="mso-list: l0 level1 lfo1; tab-stops: list .5in;"><strong>U.S. Department of Energy.</strong> <i>Insulation — Energy Saver.</i><br><a href="https://www.energy.gov/energysaver/insulation">https://www.energy.gov/energysaver/insulation</a></li>
+</ol>
+<p class="MsoNormal"> </p>
+<p> </p>
             ]]>
         </content>
     </entry>
